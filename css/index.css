@@ -22,3 +22,120 @@ html {
     width: 70%;
     height: 80%;
 }
+
+/*------main-setup--------*/
+
+main {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    margin: auto;
+    background-color: rgba(163, 119, 119, 0.7);
+}
+
+/*-----individual-setup-------*/
+
+.container {
+    position: relative;
+    width: 43%;
+    height: auto;
+    color: hsl(300, 43%, 22%);
+}
+
+#users {
+    width: 65%;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#description {
+    width: 450px;
+    margin-top: 10px;
+}
+
+/*------raking setup-----*/
+
+.rated1{
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 55%;
+    width: 30%;
+    height: 45px;
+    padding: 0px 25px;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.rated1 .p1 {
+    color: rgb(172, 172, 5);
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.rated1 .p2 {
+    margin-top: 19px;
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.rated2 {
+    position: absolute;
+    display: flex;
+    top: 65px;
+    left: 60%;
+    width: 30%;
+    height: 45px;
+    padding: 0px 25px;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.rated2 .p1 {
+    color: rgb(172, 172, 5);
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.rated2 .p2 {
+    margin-top: 19px;
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.rated3 {
+    position: absolute;
+    display: flex;
+    top: 120px;
+    left: 65%;
+    width: 30%;
+    height: 45px;
+    padding: 0px 25px;
+    flex-direction: row;
+    border-radius: 5px;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.rated3 .p1 {
+    color: rgb(172, 172, 5);
+    margin-top: 9px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.rated3 .p2 {
+    margin-top: 19px;
+    margin-left: 20px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 12px;
+}
