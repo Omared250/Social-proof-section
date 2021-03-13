@@ -191,6 +191,7 @@ main {
     display: grid;
     width: 350px;
     height: auto;
+    margin-top: 35px;
     grid-template-columns: 90px 1fr;
     grid-template-rows: 45px 45px 1fr;
     border-radius: 10px;
